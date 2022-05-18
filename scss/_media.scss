@@ -15,6 +15,13 @@
   .abilities{
     padding-bottom: 50px;
   }
+  .advantages{
+    padding-bottom: 70px;
+    &__list{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 }
 
 @media (max-width: 1000px){
