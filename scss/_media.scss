@@ -1,3 +1,22 @@
+@media (max-width: 1100px){
+  .abilities__inner{
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+  .abilities__block{
+    max-width: 50%;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .abilities__title{
+    margin-bottom: 50px;
+  }
+  .abilities{
+    padding-bottom: 50px;
+  }
+}
+
 @media (max-width: 1000px){
   .about__inner{
     flex-direction: column;
@@ -65,6 +84,22 @@
   }
 }
 
+@media (max-width: 700px){
+  .abilities__block{
+    max-width: 100%;
+    padding: 0;
+    & + &{
+      margin-top: 30px;
+    }
+  }
+  .abilities__inner{
+    margin: 0;
+  }
+  .abilities__info{
+    width: 70%;
+  }
+}
+
 @media (max-width: 600px){
   .header__title{
     font-size: 50px;
@@ -106,6 +141,11 @@
   }
   .menu__btn.active{
     transform: translateY(-40px);
+  }
+  .abilities__info{
+    width: 100%;
+    border-radius: 0;
+    padding: 26px 15px;
   }
 }
 
