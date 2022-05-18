@@ -3,6 +3,12 @@
 
 $accent: #ED4C5C;
 
+%title{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -14,6 +20,19 @@ body{
   max-width: 1130px;
   padding: 0 10px;
   margin: 0 auto;
+}
+.img-block{
+  margin-left: 125px;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 445px;
+  height: 311px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .header{
   background-image: url(../images/header-bg.jpg);
@@ -102,6 +121,27 @@ body{
     text-transform: uppercase;
     font-weight: 500;
     line-height: 16px;
+  }
+}
+
+.about{
+  padding: 95px 0;
+  &__inner{
+    display: flex;
+    align-items: center;
+  }
+  &__info{
+    max-width: 445px;
+  }
+  &__title{
+    @extend %title;
+    margin-bottom: 36px;
+  }
+  &__text{
+    margin-bottom: 12px;
+  }
+  &__link{
+    color: $accent;
   }
 }
 

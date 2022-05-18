@@ -1,3 +1,21 @@
+@media (max-width: 1000px){
+  .about__inner{
+    flex-direction: column;
+  }
+  .about__info{
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .about__img-block{
+    margin-left: 0;
+    max-width: 70%;
+    width: 100%;
+  }
+  .about{
+    padding: 50px 0;
+  }
+}
+
 @media (max-width: 900px){
   .menu{
     order: 1;
@@ -54,6 +72,13 @@
   }
   .header__btn{
     margin: 0 auto;
+  }
+  .about__img-block{
+    max-width: 100%;
+  }
+  .about__title{
+    font-size: 25px;
+    line-height: 35px;
   }
 }
 
