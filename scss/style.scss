@@ -324,6 +324,28 @@ body{
     border-radius: 6px
   }
 }
+.footer{
+  background-color: #FAFAFA;
+  padding: 43px 0 48px;
+  font-family: 'Lato', sans-serif;
+  color: #101010;
+  &__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 19px;
+  }
+  &__adress{
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 178px;
+    margin-bottom: 45px;
+  }
+  &__copy{
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
 
 
 @import 'media';
