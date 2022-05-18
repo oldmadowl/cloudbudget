@@ -25,19 +25,22 @@
 }
 
 @media (max-width: 1000px){
-  .about__inner{
+  .about__inner,
+  .money__inner{
     flex-direction: column;
   }
-  .about__info{
+  .about__info,
+  .money__info{
     max-width: 100%;
     margin-bottom: 50px;
   }
-  .about__img-block{
+  .img-block{
     margin-left: 0;
     max-width: 70%;
     width: 100%;
   }
-  .about{
+  .about,
+  .money{
     padding: 50px 0;
   }
 }
@@ -115,10 +118,11 @@
   .header__btn{
     margin: 0 auto;
   }
-  .about__img-block{
+  .img-block{
     max-width: 100%;
   }
-  .about__title{
+  .about__title,
+  .money__title{
     font-size: 25px;
     line-height: 35px;
   }
@@ -153,6 +157,9 @@
     width: 100%;
     border-radius: 0;
     padding: 26px 15px;
+  }
+  .money__title{
+    margin-bottom: 30px;
   }
 }
 

@@ -254,6 +254,29 @@ body{
     line-height: 14px;
   }
 }
+.money{
+  background-color: $accent;
+  padding: 95px 0;
+  color: #fff;
+  &__inner{
+    display: flex;
+    align-items: center;
+  }
+  &__info{
+    max-width: 445px;
+  }
+  &__title{
+    @extend %title;
+    margin-bottom: 45px;
+  }
+  &__text{
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  &__link + &__link{
+    margin-left: 25px;
+  }
+}
 
 
 @import 'media';
