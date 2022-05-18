@@ -277,6 +277,53 @@ body{
     margin-left: 25px;
   }
 }
+.contact{
+  padding: 160px 0 123px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info{
+    max-width: 445px;
+    margin-left: 10px;
+  }
+  &__title{
+    @extend %title;
+    margin-bottom: 54px;
+  }
+}
+.form{
+  max-width: 540px;
+  width: 100%;
+  margin-left: 40px;
+  &__input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 24px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 30px;
+    color: rgba(19, 39, 67, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    &::placeholder{
+      color: rgba(19, 39, 67, 0.5);
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+  &__btn{
+    background-color: $accent;
+    color: #fff;
+    padding: 17px 40px;
+    border-radius: 6px
+  }
+}
 
 
 @import 'media';

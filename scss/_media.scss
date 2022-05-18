@@ -26,7 +26,8 @@
 
 @media (max-width: 1000px){
   .about__inner,
-  .money__inner{
+  .money__inner,
+  .contact__inner{
     flex-direction: column;
   }
   .about__info,
@@ -40,8 +41,21 @@
     width: 100%;
   }
   .about,
-  .money{
+  .money,
+  .contact{
     padding: 50px 0;
+  }
+  .contact__info{
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .form{
+    text-align: center;
+    margin-left: 0;
+  }
+  .contact__title{
+    margin-bottom: 30px;
   }
 }
 
@@ -160,6 +174,9 @@
   }
   .money__title{
     margin-bottom: 30px;
+  }
+  .form__btn{
+    width: 100%;
   }
 }
 
